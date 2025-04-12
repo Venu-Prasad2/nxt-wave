@@ -1,0 +1,70 @@
+.product-card {
+    background: white;
+   
+    
+    padding: 1rem;
+    text-align: left;
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  
+  .product-card img {
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    
+    align-self: center;
+  }
+  
+  .product-card h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #111;
+    margin: 0.5rem 0 0;
+    height: 2.4rem; /* accommodates two lines */
+    
+  }
+  
+  .login-text {
+    font-size: 10px;
+    color: #555;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  .align{
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .wishlist {
+   
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .product-card {
+      width: 100%;
+      height: auto;
+    }
+  
+    .product-card img {
+      height: 140px;
+    }
+  }
+  

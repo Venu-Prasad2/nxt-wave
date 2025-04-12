@@ -1,0 +1,82 @@
+/* index.css */
+
+.sidebar {
+    width: 250px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    font-family:  sans-serif;
+  }
+  
+  .filter-section {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+  }
+  
+  .filter-title {
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  
+  .filter-options {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .filter-options label {
+    font-size: 0.9rem;
+    color: #555;
+    cursor: pointer;
+  }
+
+  .filter-toggle-link {
+    background: none;
+    border: none;
+    color: gray;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+  }
+  
+  .filter-toggle-link:focus {
+    outline: none;
+  }
+  
+  .arrow {
+    font-weight: bold;
+    margin-right: 4px;
+  }
+  
+  .mobile-filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .items-count {
+    color: #555;
+  }
+  
+  
+
+  
+  
+
+  
