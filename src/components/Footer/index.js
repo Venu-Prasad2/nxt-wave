@@ -10,7 +10,7 @@ const Footer = () => (
 <h3>BE THE FIRST TO KNOW</h3>
 <p>Sign up for updates from mettā muse.</p>
 <div className="newsletter-input">
-<input type="email placeholder=Enter your e-mail... "/>
+<input type="email placeholder="Enter your e-mail... "/>
 <button className='button'>SUBSCRIBE</button>
 </div>
 </div>
